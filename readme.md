@@ -1,15 +1,17 @@
 # Deploying to Kubernetes
 
-Spokane DevOps Meetup
+Material prepared for Spokane DevOps Meetup
 
-Pre-requisites for AKS demos
+We're using Azure Kubernetes Service (AKS) for demos, principals apply regardless of platform.
 
-Azure subscription
-Azure CLI
-AKS extension
+## Pre-requisites for Demos
+* Pre-provisioned AKS Cluster (commands included) and Azure Container Registry (ACR)
+* Azure CLI 2.26 or later
+* Kubectl command line (comes with Docker for Windows)
 
-Samples are in PowerShell, easy to substitute bash
+Sample commands are in PowerShell, easy to substitute bash
+Sample repo uses GitHub Actions, similar concepts apply to other CI/CD
 
 
-- 
-- node selector, be clear
+
+
